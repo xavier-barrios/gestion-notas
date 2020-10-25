@@ -36,5 +36,14 @@ class Alumno extends Persona{
         $this->apellidom = $apellidom;
         return $this;
     }
+
+    public function getGrupo_alumno(){
+        return $this->grupo_alumno;
+    }
+
+    public function setGrupo_alumno($grupo_alumno){
+        $this->grupo_alumno = $grupo_alumno;
+        return $this;
+    }
 }
 ?>
