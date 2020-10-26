@@ -27,7 +27,8 @@ class AdminDao{
 
             return true;
         }else {
-            echo "<script>alert('error aqui')</script>";
+            // echo "<script>alert('error aqui')</script>";
+            header('Location:./login.php');
             return false;
         }
     }

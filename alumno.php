@@ -1,4 +1,5 @@
 <?php
+require_once './persona.php';
 class Alumno extends Persona{
 
     private $nombre;
@@ -6,8 +7,12 @@ class Alumno extends Persona{
     private $apellidom;
     private $grupo_alumno;
     
-    function __construct($id_user,$email,$password){
+    function __construct($id_user,$email,$password,$nombre,$apellidop,$apellidom,$grupo_alumno){
         parent:: __construct($id_user,$email,$password);
+        $this->nombre=$nombre;
+        $this->apellidop=$apellidop;
+        $this->apellidom=$apellidom;
+        $this->grupo_alumno=$grupo_alumno;
     }
 
     public function getNombre(){
