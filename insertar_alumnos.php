@@ -3,6 +3,9 @@
 <head>
   <title></title>
 </head>
+<?php
+    require_once './sessionController.php';
+    ?>
 <body>
   <?php
     include './alumnoDao.php';
