@@ -3,7 +3,7 @@
 <head>
   <title></title>
 </head>
-<?php
+    <?php
     require_once './sessionController.php';
     ?>
 <body>
